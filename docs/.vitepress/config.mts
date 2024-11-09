@@ -4,11 +4,12 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "My note",
   description: "My note",
+  base: '/notes/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Notes', link: '/markdown-examples' }
+      { text: 'Notes', link: '/promise' }
     ],
 
     sidebar: [
